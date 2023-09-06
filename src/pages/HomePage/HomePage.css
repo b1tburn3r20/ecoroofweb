@@ -1,0 +1,83 @@
+.hero-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.hero-left-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 550px;
+  margin-left: 10rem;
+}
+.hero-left-container > * {
+  margin-bottom: 0.5rem;
+}
+.hero-left-top {
+  font-size: 2rem;
+  font-weight: 300;
+}
+.hero-left-middle {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.hero-left-bottom {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+.hero-right-container {
+  margin-top: 7rem;
+  margin-left: 0rem;
+}
+.hero-right-video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#tesla-roof-transition-video {
+  width: 50%;
+  overflow: cover;
+  border-radius: 15px;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.7);
+}
+.hero-right-middle {
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  font-style: italic;
+  font-weight: 200;
+  text-align: left;
+  color: var(--eco-color-dark-grey);
+}
+.sourced-from-tesla {
+  margin-top: 1rem;
+  font-style: italic;
+  color: gray;
+  opacity: 0.5;
+}
+.sourced-from-tesla a {
+  color: gray;
+}
+.google-maps-api-input-searchup-container {
+  text-align: center;
+  margin-top: 4rem;
+}
+.google-maps-api-input-header > h2 {
+  display: inline-block;
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+  font-size: 2rem;
+  border-bottom: 2px solid var(--eco-color-dark-grey);
+  border-radius: 1px;
+}
+#google-maps-api-input-searchup {
+  margin-top: 1rem;
+  padding: 1rem;
+  width: 80vw;
+  font-size: 1.4rem;
+  font-weight: 350;
+  border: 1px solid var(--eco-color-dark-grey);
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
